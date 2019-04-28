@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Twinkle Cats</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center my-3 display-4">Javascript: All You Need to Know Give Away</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="inp">Enter All Names</label>
+                    <textarea id="inp" class="form-control" rows="14">
+
+                    </textarea>
+                </div>
+                <div>
+                    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample"
+                        aria-expanded="false" aria-controls="collapseExample">
+                        Show All Student
+                    </button>
+
+                    <div class="collapse my-4" id="collapseExample">
+                        <div class="card card-body">
+                            <ul class="list-group" id="name-list">
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <label> Output Display</label>
+                <div class="card card-body text-center">
+                    <h2 id="display">Display</h2>
+                </div>
+                <div class="text-center">
+                    <button class="btn btn-success mt-4" id="give-a-try">
+                        Give A Try
+                    </button>
+                </div>
+                <ul class="list-group-item my-4">
+                    <li class="list-group-item">
+                        <strong>First Winner: <span id="first-position"></span></strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Second Winner: <span id="second-position"></span></strong>
+                    </li>
+                    <li class="list-group-item">
+                        <strong>Third Winner: <span id="third-position"></span></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
